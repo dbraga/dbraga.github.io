@@ -234,3 +234,92 @@
         }
     }
 }
+
+bold {
+    // font-size: $medium-font-size;
+    font-weight: bold;
+}
+#outercontainer {
+    display:block;
+}
+#innercontainer{
+    font: 300 22px/1.5 "Source Sans Pro", sans-serif;
+    font-weight: italic;
+    text-shadow: 1px 1px 1px #fff;
+    color: #330;
+    padding-top: 10%;
+    // background-color: red;
+    text-align: center;
+}
+
+.italy-flag, .usa-flag {
+    width: 30px; 
+    height: 20px;
+}
+.usa-flag {
+    margin-bottom: 10px;
+}
+#trulia-logo{
+    width: 90px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.greeting{
+    // text-align: center;
+    // padding-right: 50%;
+    font-size: 2em;
+    display:  inline-block;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.face-photo{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+i {
+    color: #01aa9c;
+    font-weight: bold;
+}
+
+.card{
+    // background-color: red;
+    width: 350px;
+    height: 350px;
+    // float: left;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    p {
+        padding: 10px;
+        display: inline-block;
+        height: 150px;
+        text-overflow: none;
+
+        overflow: auto;
+    }
+    border-right: 1px solid  $grey-color;
+}
+
+.project-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 120px;
+}
+.project-title{
+    font-weight: bold;
+    // color: #01aa9c;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}

@@ -202,3 +202,17 @@ pre {
         }
     }
 }
+
+.footer-icon {
+
+    > svg {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        vertical-align: middle;
+        margin-right: 20px;
+        path {
+            fill: $grey-color;
+        }
+    }
+}
