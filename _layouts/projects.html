@@ -11,6 +11,8 @@ layout: projects
   <body>
 
     {% include header.html %}
+
+   <div class="projects-title"> Some of the projects i worked on </div>
     <div id="outercontainer">
 
     <div class="card">
@@ -23,23 +25,22 @@ Thoth is a real-time Apache Solr monitor and search analys engine. It's a set of
       </p>
       <ul class="tags">
         <li>Java</li>
-        <li>Node.js</li>
+        <li>Node</li>
         <li>Solr</li>
-          <li>ActiveMQ</li>
-        <li>HTML</li>
+        <li>ActiveMQ</li>
         <li>SASS</li>
-        <li>Javascript</li>
-        <li>(NV)D3.js</li>
+        <li>Js</li>
+        <li>D3.js</li>
       </ul>
     </div>
 
 
     <div class="card">
-      <span class="project-title"> <a href="solr2activemq.html"> Solr2ActiveMQ </a> </span>
+      <span class="project-title"> <a href="https://github.com/dbraga/solr2activemq"> Solr2ActiveMQ </a> </span>
       <img class="project-img" src="/img/software.png"/>
       <p> 
-A Solr Handler that sends queries to an ActiveMQ queue or topic 
-<br><br><a href="solr2activemq.html"> Read more </a>
+Solr2ActiveMQ is an Apache Solr Handler that can send search requests to a a to an ActiveMQ Queue or Topic. Before being funnelled, search requests are transformed into JMS messages.
+<br><br><a href="https://github.com/dbraga/solr2activemq"> Read more </a>
       </p>
             <ul class="tags">
         <li>Java</li>
@@ -49,24 +50,117 @@ A Solr Handler that sends queries to an ActiveMQ queue or topic
     </div>
 
         <div class="card">
-      <span class="project-title"> <a href="rubyprovisioningapi.html"> Ruby Provision API </a> </span>
+      <span class="project-title"> <a href="digitalprog.github.io/ruby_provisioning_api/"> Ruby Provision API </a> </span>
       <img class="project-img" src="/img/api.png"/>
       <p> 
-A Ruby wrapper for Google Apps Provisioning API
-<br><br><a href="rubyprovisioningapi.html"> Read more </a>
+Ruby Provisioning API is a Ruby wrapper wrapper for Google Apps Provisioning API. 
+<br><br><a href="digitalprog.github.io/ruby_provisioning_api/"> Read more </a>
       </p>
+                  <ul class="tags">
+        <li>Ruby</li>
+        <li>Rspec</li>
+          <li>Google Provisioning API</li>
+      </ul>
     </div>
 
 
-solrgression
-git wizzy
-hammock
-Segugio
-Governor
-Percolator
+
+
+                <div class="card">
+      <span class="project-title"> <a href="/img/thesis.pdf"> Percolator </a> </span>
+      <img class="project-img" src="/img/percolator.png"/>
+      <p> 
+A custom implementation of the Percolation feature or Prospective Search on top of Apache Solr. This was also the project on which i based by Master Degree Thesis  
+<br><br><a href="/img/thesis.pdf"> Read more </a>
+      </p>
+                  <ul class="tags">
+        <li>Java</li>
+        <li>Solr</li>
+        <li>ActiveMQ</li>
+
+        <li>Prospective Search</li>
+      </ul>
+    </div>
+
+                <div class="card">
+      <span class="project-title"> <a href=""> Hammock </a> </span>
+      <img class="project-img" src="/img/hammock.png"/>
+      <p> 
+A release orchestrator. It can safely, smartly and quickly deploy code to production to one or multiple servers in a pool with minimal interaction.    
+<br><br>
+      </p>
+                  <ul class="tags">
+        <li>Fabric</li>
+        <li>Python</li>
+        <li>F5</li>
+        <li>Haproxy</li>
+        <li>Git</li>
+        <li>Jira</li>
+      </ul>
+    </div>
+
+                <div class="card">
+      <span class="project-title"> <a href=""> Segugio </a> </span>
+      <img class="project-img" src="/img/segugio.png"/>
+      <p> 
+A tool that generates custom debian packages for releasable code. 
+<br><br>
+      </p>
+                  <ul class="tags">
+        <li>Java</li>
+        <li>Git</li>
+        <li>Jdeb</li>
+        <li>Maven</li>
+
+      </ul>
+    </div>
+
+                <div class="card">
+      <span class="project-title"> <a href=""> Governor </a> </span>
+      <img class="project-img" src="/img/governor.png"/>
+      <p> 
+A notification batching system. It collects messages and batches them applying some business rules. It also takes care of the sending phase. 
+<br><br>
+<!-- <a href="governor.html"> Read more </a> -->
+      </p>
+                  <ul class="tags">
+        <li>Java</li>
+        <li>MySQL</li>
+        <li>ActiveMQ</li>
+
+      </ul>
+    </div>
 
 
 
+
+
+
+            <div class="card">
+      <span class="project-title"> <a href="https://github.com/dbraga/solrgression"> Solrgression </a> </span>
+      <img class="project-img" src="/img/regression.png"/>
+      <p> 
+Solrgression is a simple tool that can help executing regression testing against an Apache Solr server.
+<br><br><a href="https://github.com/dbraga/solrgression"> Code </a>
+      </p>
+                  <ul class="tags">
+        <li>Java</li>
+        <li>Solr</li>
+      </ul>
+    </div>
+
+                <div class="card">
+      <span class="project-title"> <a href="https://github.com/dbraga/git-wizzy"> Git Wizzy </a> </span>
+      <img class="project-img" src="/img/wizzy.png"/>
+      <p> 
+A simple utility that can restore files from an internal cache. It's an alternative to git stash when you want to quickly switch configuration files or sensible files.
+<br><br><a href="https://github.com/dbraga/git-wizzy"> Code </a>
+      </p>
+                  <ul class="tags">
+        <li>Git</li>
+        <li>Python</li>
+      </ul>
+    </div>
 
 
 </div>
