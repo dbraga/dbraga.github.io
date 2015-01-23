@@ -260,16 +260,52 @@ body {
 .usa-flag {
     width: 30px; 
     height: 20px;
+        background-image: url("http://dbraga.io/img/usa-flag.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+        display: inline-block;
+            margin-bottom: 0px;
+
+
+}
+
+.usa-flag:hover {
+    width: 30px; 
+    height: 20px;
+        background-image: url("http://dbraga.io/img/burger.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+        display: inline-block;
+            margin-bottom: 0px;
+
+
 }
 
 .italy-flag{
     width: 40px;
-height: 30px;
-margin-bottom: 15px;
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 0px;
+    background-image: url("http://dbraga.io/img/italy.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.usa-flag {
-    margin-bottom: 10px;
+
+
+.italy-flag:hover{
+    width: 40px;
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 0px;
+    background-image: url("http://dbraga.io/img/italy-flag.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+
+// .usa-flag {
+//     margin-bottom: 10px;
+// }
 #trulia-logo{
     width: 90px;
     height: 30px;
@@ -383,6 +419,9 @@ text-align: center;
 
 
 
+}
+p{
+    display:inline-block;
 }
 // p {
     // a {
